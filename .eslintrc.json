@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true
+    },
+    "extends": [
+        "prettier",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "linebreak-style": 0,
+        "no-undef": 0
+    }
+}
